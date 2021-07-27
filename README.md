@@ -19,7 +19,7 @@ We are using pre-trained machine learning models for hand recognition from [Medi
 ## How it Works
 Uses Python (OpenCV) and the pre-trained models from [Mediapipe (Google)](http://https://google.github.io/mediapipe/ "Mediapipe (Google)") to capture video, recognize hands in the frame and then calculate the slope between the two hands to determine which direction to turn in. 
 
-![Steering Demo](http://i.imgur.com/oCalaZYh.gif)
+![Steering Demo](https://i.imgur.com/oCalaZY.gif)
 
 
 <!-- GETTING STARTED -->
