@@ -11,17 +11,13 @@
 ## About The Project
 
 Recently got a webcam, and I've always wanted to explore using it to play around with computer vision (e.g., hand and gesture tracking); so I decided to create a virtual steering wheel with Python.
-
 We are using pre-trained machine learning models for hand recognition from [Mediapipe (Google)](http://https://google.github.io/mediapipe/ "Mediapipe (Google)")
-
-
 
 ## How it Works
 Uses Python (OpenCV) and the pre-trained models from [Mediapipe (Google)](http://https://google.github.io/mediapipe/ "Mediapipe (Google)") to capture video, recognize hands in the frame and then calculate the slope between the two hands to determine which direction to turn in. 
 
-Want to see it in action? Click the image below for the demo video.
-[![Steering Demo](https://i.imgur.com/XeL4zIn.png)](http://https://www.youtube.com/watch?v=q0O3pqBi1xs "![Steering Demo](https://i.imgur.com/XeL4zIn.png)")
-
+Want to see it in action? Click the thumbnail for a demo.
+[![demo-thubmnail](https://i.imgur.com/XeL4zIn.png)](https://www.youtube.com/watch?v=q0O3pqBi1xs)
 
 <!-- GETTING STARTED -->
 ## Getting Started
