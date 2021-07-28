@@ -24,7 +24,6 @@ Want to see it in action? Click the thumbnail for a demo.
 Looking to demo the app yourself? Check this part out.
 
 ### Installation
-Ensure you have the latest version of Node.js, [found here](https://nodejs.org/en/).
 1. Clone the repo
    ```sh
    git clone https://github.com/HaiderZaidiDev/virtual-ml-steering-wheel
