@@ -31,13 +31,13 @@ def write_text(img, text, x, y):
         Y coordinate for plotting the text.
     """
     font = cv2.FONT_HERSHEY_SIMPLEX
-    bottomLeftCornerOfText = (x, y)
+    pos = (x, y)
     fontScale = 1
     fontColor = (255, 255, 255) # White.
     lineType = 2
     cv2.putText(img,
                 text,
-                bottomLeftCornerOfText,
+                pos,
                 font,
                 fontScale,
                 fontColor,
@@ -72,17 +72,17 @@ def steering_wheel():
                 left_hand_landmarks = landmarks[1].landmark
                 right_hand_landmarks = landmarks[0].landmark
 
-                # Index Fingers
+                # Fetching the height and width of the camera view.
                 shape = img.shape
                 width = shape[1]
                 height = shape[0]
 
-                # Isolating the tip of index fingers from both hands, and normalizing their coordinates based on height/width
+                # Isolating the tip of middle fingers from both hands, and normalizing their coordinates based on height/width
                 # of the camera view.
                 left_mFingerX, left_mFingerY = (left_hand_landmarks[11].x * width), (left_hand_landmarks[11].y * height)
                 right_mFingerX, right_mFingerY = (right_hand_landmarks[11].x * width), (right_hand_landmarks[11].y * height)
 
-                # Calculating slope between index fingers of both hands (we use this to determine whether we're turning
+                # Calculating slope between middle fingers of both hands (we use this to determine whether we're turning
                 # left or right.
                 slope = ((right_mFingerY - left_mFingerY)/(right_mFingerX-left_mFingerX))
 
