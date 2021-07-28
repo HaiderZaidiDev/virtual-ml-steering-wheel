@@ -32,10 +32,10 @@ Looking to demo the app yourself? Check this part out.
    ```sh
     pip install -r requirements.txt
    ```
-3. Run expo (you may be prompted to auto-install additional dependencies here, please do so)
-  ```sh
-  python3 steeringwheel.py
-  ```
+3. Run the Python script
+   ```sh
+    python3 steeringwheel.py
+   ```
 
 <!-- CONTRIBUTING -->
 ## Contributing
