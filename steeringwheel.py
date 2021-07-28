@@ -31,13 +31,13 @@ def write_text(img, text, x, y):
         Y coordinate for plotting the text.
     """
     font = cv2.FONT_HERSHEY_SIMPLEX
-    bottomLeftCornerOfText = (x, y)
+    pos = (x, y)
     fontScale = 1
     fontColor = (255, 255, 255) # White.
     lineType = 2
     cv2.putText(img,
                 text,
-                bottomLeftCornerOfText,
+                pos,
                 font,
                 fontScale,
                 fontColor,
