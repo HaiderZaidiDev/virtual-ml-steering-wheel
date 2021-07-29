@@ -1,6 +1,6 @@
 # Sending keys through direct input (PyAutoGui does not send directly, thus, not working in games).
-# Implemented from: 
-# ttps://pythonprogramming.net/direct-input-game-python-plays-gta-v/?completed=/open-cv-basics-python-plays-gta-v/
+# Implemented from (with modifications):
+# https://pythonprogramming.net/direct-input-game-python-plays-gta-v/?completed=/open-cv-basics-python-plays-gta-v/
 
 import ctypes
 
