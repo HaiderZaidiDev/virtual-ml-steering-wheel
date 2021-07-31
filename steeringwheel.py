@@ -6,7 +6,7 @@ import time
 
 
 cap = cv2.VideoCapture(1) # Fetching video camera.
-# Setting video capture resolution for the webcam to 1280x720 (px)awwwwwwwwwwwwwwwwwwwaaaaaaaaaaaaaawwwwdddddddddddddd
+# Setting video capture resolution for the webcam to 1280x720 (px)
 cap.set(3, 1280)
 cap.set(4, 720)
 
