@@ -2,7 +2,7 @@
 <p align="center">
   <h3 align="center">Virtual Steering Wheel</h3>
   <p align="center">
-    A virtual steering wheel, made with pre-trained machine learning models (mediapipe) with Python. 
+    A virtual steering wheel, made with Python and pre-trained machine learning models. 
   </p>
 </p>
 
